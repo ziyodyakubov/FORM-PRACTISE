@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON LINK -->
+    <link rel="icon" href="./../images/icons/logo.svg">
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./../style.css">
+    <title>By Trend</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION STARTED -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#"><img src="./../images/icons/logo.svg" alt="logo"></a>
+                <ul class="flexbox-1">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><button class="login-btn">Log in</button></li>
+                    <li><button class="open-acc">Open an account</button></li>
+                    <li><select name="language" id="" class="select-btn">
+                            <option value="eng">ENG</option>
+                            <option value="rus">RUS</option>
+                        </select></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- HEADER SECTION ENDED -->
+
+    <!-- MAIN SECTION STARTED -->
+    <main>
+        <!-- SECTION-1 STARTED -->
+        <section id="section-2">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="form-card-2">
+                        <a href="#"><img src="./../images/icons/logo.svg" alt="logo"></a>
+
+                        <h2 class="welcome">Welcome to ByTrend!</h2>
+                        <p class="already">Already have an account?<a href="./third-step.html">Log in</a></p>
+
+                        <form action="" method="post">
+                            <div class="fname-lname">
+                                <div class="first-name email">
+                                    <label for="fname">Email*</label>
+                                    <input type="text" id="fname" placeholder="Email address" required>
+                                </div>
+                            </div>
+
+                            <div class="birth-day">
+                                <label for="date">Phone*</label>
+                                <input type="number" placeholder="+7 965-748-89-90" id="date" required>
+                            </div>
+
+                            <div class="gender">
+                                <p>Country*</p>
+                                <div class="radio-input">
+                                    <div class="female-in">
+                                        <select name="country" id="country">
+                                            <option value="rus">Russia</option>
+                                            <option value="uzb">Uzbekistan</option>
+                                            <option value="eng">USA</option>
+                                            <option value="italia">Italia</option>
+                                            <option value="fransia">Fransia</option>
+                                        </select>
+                                    </div>
+                                    <div class="male-in">
+                                        <input type="text" name="gender" id="male" placeholder="Name of the city">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skype">
+                                <label for="skype">Password*</label>
+                                <input type="password" id="skype" placeholder="************" required>
+                            </div>
+
+                            <div class="promo">
+                                <label for="promo">Confirm password*</label>
+                                <input type="password" id="promo" required>
+                            </div>
+
+                            <button type="submit" class="continue-btn">Register</button>
+                        </form>
+                    </div>
+
+                    <p class="last-info">By signing up, you are agreeing to our Terms & Conditions<br> and Privacy
+                        Policy.</p>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION-1 ENDED -->
+    </main>
+    <!-- MAIN SECTION ENDED -->
+</body>
+
+</html>

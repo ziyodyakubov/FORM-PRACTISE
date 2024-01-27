@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON LINK -->
+    <link rel="icon" href="./images/icons/logo.svg">
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./style.css">
+    <title>By Trend</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION STARTED -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#"><img src="./images/icons/logo.svg" alt="logo"></a>
+                <ul class="flexbox-1">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><button class="login-btn">Log in</button></li>
+                    <li><button class="open-acc">Open an account</button></li>
+                    <li><select name="language" id="" class="select-btn">
+                            <option value="eng">ENG</option>
+                            <option value="rus">RUS</option>
+                        </select></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- HEADER SECTION ENDED -->
+
+    <!-- MAIN SECTION STARTED -->
+    <main>
+        <!-- SECTION-1 STARTED -->
+        <section id="section-1">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="form-card">
+                        <a href="#"><img src="./images/icons/logo.svg" alt="logo"></a>
+
+                        <h2 class="welcome">Welcome to ByTrend!</h2>
+                        <p class="already">Already have an account?<a href="./pages/third-step.html">Log in</a></p>
+
+                        <form action="" method="post">
+                            <div class="fname-lname">
+                                <div class="first-name">
+                                    <label for="fname">First name</label>
+                                    <input type="text" id="fname" placeholder="Your firstname" required>
+                                </div>
+
+                                <div class="last-name">
+                                    <label for="lname">Last name</label>
+                                    <input type="text" id="lname" placeholder="Your surname" required>
+                                </div>
+                            </div>
+
+                            <div class="birth-day">
+                                <label for="date">Birth date*</label>
+                                <input type="date" placeholder="06.12.1992" id="date" required>
+                            </div>
+
+                            <div class="gender">
+                                <p>Gender</p>
+                                <div class="radio-input">
+                                    <div class="female-in">
+                                        <input type="radio" name="gender" id="female">
+                                        <label for="female">Female</label>
+                                    </div>
+
+                                    <div class="male-in">
+                                        <input type="radio" name="gender" id="male">
+                                        <label for="male">Male</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skype">
+                                <label for="skype">Skype</label>
+                                <input type="text" id="skype" placeholder="Your login Skype" required>
+                            </div>
+
+                            <div class="promo">
+                                <label for="promo">Promo</label>
+                                <input type="text" id="promo" placeholder="Your promo" required>
+                            </div>
+
+                            <button type="submit" class="continue-btn">Continue</button>
+                        </form>
+                    </div>
+
+                    <p class="last-info">©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION-1 ENDED -->
+    </main>
+    <!-- MAIN SECTION ENDED -->
+</body>
+
+</html>
